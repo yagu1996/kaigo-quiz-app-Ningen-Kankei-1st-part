@@ -409,10 +409,10 @@ for q in questions:
     
     selected_idx = st.radio(
         label=f"Q{q['num']}の回答を選択:",
-        options=,
+        options=[1, 2, 3, 4],  # ← [1, 2, 3, 4] に修正
         index=None,
         horizontal=True,
-        key=f"q_{q['num']}"
+        key=f"q_{q['num']}",
     )
     user_answers[q['num']] = selected_idx
     st.markdown("<div style='margin-bottom: 15px;'></div>", unsafe_allow_html=True)
