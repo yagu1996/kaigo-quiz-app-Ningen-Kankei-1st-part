@@ -4,7 +4,7 @@ import html
 
 # ページ設定
 st.set_page_config(
-    page_title="No.1 人間の理解 練習問題",
+    page_title="No.1 人間の理解 練習問題 a前半",
     page_icon="📝",
     layout="centered"
 )
@@ -62,7 +62,7 @@ st.markdown("""
 # タイトル表示
 st.markdown("""
 <h2 style='text-align: center; border-bottom: 2px solid #2c3e50; padding-bottom: 8px;'>
-No.1 <ruby>人<rt>にん</rt>間<rt>げん</rt></ruby>の<ruby>理<rt>り</rt>解<rt>かい</rt></ruby> <ruby>練<rt>れん</rt>習<rt>しゅう</rt>問<rt>もん</rt>題<rt>だい</rt></ruby>
+No.1 <ruby>人<rt>にん</rt>間<rt>げん</rt></ruby>の<ruby>理<rt>り</rt>解<rt>かい</rt></ruby> <ruby>練<rt>れん</rt>習<rt>しゅう</rt>問<rt>もん</rt>題<rt>だい</rt></ruby> a<ruby>前半<rt>ぜんはん</rt></ruby>
 </h2>
 <p style='text-align: center; font-size: 0.9rem; color: #555;'>
 Google Classroom 課題提出対応Webアプリ（全25問・4択式）
