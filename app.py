@@ -4,7 +4,7 @@ import html
 
 # ページ設定
 st.set_page_config(
-    page_title="No.1 人間の理解 練習問題 a前半",
+    page_title="No.1 人間関係とコミュニケーション 練習問題 a前半",
     page_icon="📝",
     layout="centered"
 )
@@ -485,7 +485,7 @@ if st.button("📊 採点して提出用レポートを作成する", type="prim
 <div class="report-box">
   <h2>課題提出用 成績レポート</h2>
   <table class="info-table">
-    <tr><td class="header">教科・課題</td><td>No.1 人間の理解 練習問題（4択）</td></tr>
+    <tr><td class="header">教科・課題</td><td>No.1 人間関係とコミュニケーション a前半 練習問題（4択）</td></tr>
     <tr><td class="header">組（クラス）</td><td>{html.escape(s_class)}</td></tr>
     <tr><td class="header">学籍番号</td><td>{html.escape(s_id)}</td></tr>
     <tr><td class="header">氏名</td><td>{html.escape(s_name)}</td></tr>
@@ -518,7 +518,7 @@ if st.button("📊 採点して提出用レポートを作成する", type="prim
         3. **「あなたの課題」→「追加または作成」→「ファイル」** からダウンロードしたファイルを添付し、**「提出」** を押してください。
         """)
 
-        file_name = f"提出用_人間の理解_a前半_{s_id}_{s_name}.html"
+        file_name = f"提出用_人間関係とコミュニケーション_a前半_{s_id}_{s_name}.html"
         st.download_button(
             label="📥 提出用レポート（HTML）を保存",
             data=report_html,
